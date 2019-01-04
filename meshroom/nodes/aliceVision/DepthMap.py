@@ -145,6 +145,13 @@ class DepthMap(desc.CommandLineNode):
             value=False,
             uid=[0],
         ),
+        desc.BoolParam(
+            name='exportIntermediateResults',
+            label='Export Intermediate Results',
+            description='Export intermediate results from the SGM and Refine steps.',
+            value=False,
+            uid=[],
+        ),
         desc.ChoiceParam(
             name='verboseLevel',
             label='Verbose Level',
