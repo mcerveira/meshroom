@@ -114,14 +114,6 @@ class DepthMap(desc.CommandLineNode):
             range=(1, 20, 1),
             uid=[0],
         ),
-        desc.IntParam(
-            name='refineMaxTCams',
-            label='Refine: Nb Neighbour Cameras',
-            description='Refine: Number of neighbour cameras.',
-            value=6,
-            range=(1, 20, 1),
-            uid=[0],
-        ),
         desc.FloatParam(
             name='refineSigma',
             label='Refine: Sigma',
